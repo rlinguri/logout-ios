@@ -1,0 +1,194 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/AppDelegate.swift",
+      "line": 11,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/AppDelegate.swift",
+      "line": 27,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/Interactor.swift",
+      "line": 10,
+      "symbol": "Interactor",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/Interactor.swift",
+      "line": 39,
+      "symbol": "Interactor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/Presenter.swift",
+      "line": 10,
+      "symbol": "Presenter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/Presenter.swift",
+      "line": 35,
+      "symbol": "Presenter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/Router.swift",
+      "line": 10,
+      "symbol": "Router",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/Router.swift",
+      "line": 18,
+      "symbol": "Router.init(parentController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/Router.swift",
+      "line": 32,
+      "symbol": "Router",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/ViewController.swift",
+      "line": 10,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Core/VIPER/ViewController.swift",
+      "line": 42,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Detail/DetailInteractor.swift",
+      "line": 10,
+      "symbol": "DetailInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Detail/DetailPresenter.swift",
+      "line": 10,
+      "symbol": "DetailPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Detail/DetailRouter.swift",
+      "line": 10,
+      "symbol": "DetailRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Detail/DetailViewController.swift",
+      "line": 10,
+      "symbol": "DetailViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Login/LoginInteractor.swift",
+      "line": 10,
+      "symbol": "LoginInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Login/LoginPresenter.swift",
+      "line": 10,
+      "symbol": "LoginPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Login/LoginRouter.swift",
+      "line": 10,
+      "symbol": "LoginRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Login/LoginViewController.swift",
+      "line": 10,
+      "symbol": "LoginViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Main/MainInteractor.swift",
+      "line": 10,
+      "symbol": "MainInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Main/MainPresenter.swift",
+      "line": 10,
+      "symbol": "MainPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Main/MainRouter.swift",
+      "line": 10,
+      "symbol": "MainRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Main/MainViewController.swift",
+      "line": 10,
+      "symbol": "MainViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Master/MasterInteractor.swift",
+      "line": 10,
+      "symbol": "MasterInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Master/MasterPresenter.swift",
+      "line": 10,
+      "symbol": "MasterPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Master/MasterRouter.swift",
+      "line": 10,
+      "symbol": "MasterRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Projects/DroneDeploy/logout-ios/Sources/Compile/Modules/Master/MasterViewController.swift",
+      "line": 10,
+      "symbol": "MasterViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Shared/Projects/DroneDeploy/logout-ios"
+}
