@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Detail module navigation event routing
 class DetailRouter: Router {
   
   // MARK: - Properties

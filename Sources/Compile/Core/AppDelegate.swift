@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// The app's centralized point of control and coordination
 @main
 class AppDelegate: UIResponder {
   
@@ -24,6 +25,7 @@ class AppDelegate: UIResponder {
   
 }
 
+/// UIApplicationDelegate Lifecycle
 extension AppDelegate: UIApplicationDelegate {
   
   /// Called when the launch process is complete and the app is ready to run

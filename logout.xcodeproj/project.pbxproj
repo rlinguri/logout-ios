@@ -227,10 +227,10 @@
 		B26833B4266401AD000BBDD8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				B26833B7266401D2000BBDD8 /* LoginRouter.swift */,
+				B26833BD2664032E000BBDD8 /* LoginViewController.swift */,
 				B26833B9266402A8000BBDD8 /* LoginInteractor.swift */,
 				B26833BB266402F0000BBDD8 /* LoginPresenter.swift */,
-				B26833BD2664032E000BBDD8 /* LoginViewController.swift */,
+				B26833B7266401D2000BBDD8 /* LoginRouter.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -238,10 +238,10 @@
 		B26833B5266401B4000BBDD8 /* Master */ = {
 			isa = PBXGroup;
 			children = (
+				B26833BF2664041F000BBDD8 /* MasterViewController.swift */,
 				B26833C02664041F000BBDD8 /* MasterInteractor.swift */,
 				B26833C22664041F000BBDD8 /* MasterPresenter.swift */,
 				B26833C12664041F000BBDD8 /* MasterRouter.swift */,
-				B26833BF2664041F000BBDD8 /* MasterViewController.swift */,
 			);
 			path = Master;
 			sourceTree = "<group>";
@@ -249,10 +249,10 @@
 		B26833B6266401B9000BBDD8 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				B26833C82664042F000BBDD8 /* DetailViewController.swift */,
 				B26833C92664042F000BBDD8 /* DetailInteractor.swift */,
 				B26833CA2664042F000BBDD8 /* DetailPresenter.swift */,
 				B26833C72664042F000BBDD8 /* DetailRouter.swift */,
-				B26833C82664042F000BBDD8 /* DetailViewController.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -260,10 +260,10 @@
 		B26833D3266413AE000BBDD8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				B26833D4266413BA000BBDD8 /* MainRouter.swift */,
+				B26833DA26641485000BBDD8 /* MainViewController.swift */,
 				B26833D62664140A000BBDD8 /* MainInteractor.swift */,
 				B26833D82664144C000BBDD8 /* MainPresenter.swift */,
-				B26833DA26641485000BBDD8 /* MainViewController.swift */,
+				B26833D4266413BA000BBDD8 /* MainRouter.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";

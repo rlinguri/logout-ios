@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// VIPER Presenter Protocol
 protocol Presenter: AnyObject {
   
   /// Handles the module's storage and networking tasks

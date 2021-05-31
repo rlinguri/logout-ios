@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Master module view model
 class MasterPresenter: Presenter {
   
   // MARK: - Properties

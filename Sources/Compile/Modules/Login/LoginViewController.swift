@@ -2,11 +2,12 @@
 //  LoginViewController.swift
 //  login
 //
-//  Created by Digices LLC on 5/30/21.
+//  Created by Roderic Linguri on 5/30/21.
 //
 
 import UIKit
 
+/// Login module view controller
 class LoginViewController: UIViewController, ViewController {
   
   // MARK: - Properties

@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Login navigation events
 class LoginRouter: Router {
   
   // MARK: - Properties

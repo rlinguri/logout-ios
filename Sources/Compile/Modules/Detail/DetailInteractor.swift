@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Detail module network and storage tasks
 class DetailInteractor: Interactor {
   
   // MARK: - Properties

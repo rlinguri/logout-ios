@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// VIPER Router protocol
 protocol Router: AnyObject {
   
   /// Weak reference to the parent module's view controller

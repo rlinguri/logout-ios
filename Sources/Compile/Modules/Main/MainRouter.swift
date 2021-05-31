@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Main module navigation events
 class MainRouter: Router {
   
   // MARK: - Properties

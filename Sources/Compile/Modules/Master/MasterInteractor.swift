@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Master module network and storage tasks
 class MasterInteractor: Interactor {
   
   // MARK: - Properties

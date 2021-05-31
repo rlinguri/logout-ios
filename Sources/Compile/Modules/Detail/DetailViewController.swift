@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Detail module view controller
 class DetailViewController: UIViewController, ViewController {
   
   // MARK: - Properties

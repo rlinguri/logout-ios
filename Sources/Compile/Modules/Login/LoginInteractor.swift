@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Login module network and storage tasks
 class LoginInteractor: Interactor {
   
   // MARK: - Properties

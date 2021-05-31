@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Master module navigation event routing
 class MasterRouter: Router {
   
   // MARK: - Properties

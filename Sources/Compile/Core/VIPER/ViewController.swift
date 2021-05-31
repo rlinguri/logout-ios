@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// VIPER View Protocol
 protocol ViewController: UIViewController {
   
   // MARK: - Required Properties

@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// The Main navigation view controller
 class MainViewController: UINavigationController, ViewController {
   
   // MARK: - Properties

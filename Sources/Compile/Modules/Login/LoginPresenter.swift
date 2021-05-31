@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Login module view model
 class LoginPresenter: Presenter {
   
   // MARK: - Properties

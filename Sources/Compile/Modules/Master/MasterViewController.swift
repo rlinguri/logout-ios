@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Master module view controller
 class MasterViewController: UIViewController, ViewController {
   
   // MARK: - Properties

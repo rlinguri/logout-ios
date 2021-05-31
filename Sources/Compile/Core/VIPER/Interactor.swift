@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// VIPER Interactor Protocol
 protocol Interactor: AnyObject {
   
   // MARK: - Required Properties
