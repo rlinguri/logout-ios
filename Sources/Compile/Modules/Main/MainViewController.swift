@@ -16,7 +16,18 @@ class MainViewController: UINavigationController, ViewController {
   
   /// An array of child routers
   var childRouters: [Router]?
-
+  
+  /// The master scene's controller (page 1)
+  var masterController: MasterViewController!
+  
+  /// The detail scene's controller (page 2)
+  var detailController: DetailViewController!
+  
+  /// The login screen's controller
+  var loginController: LoginViewController!
+  
+  // MARK: - MainViewController
+    
   // MARK: - VIPER
   
   /// Initialize the the view controller
@@ -25,7 +36,13 @@ class MainViewController: UINavigationController, ViewController {
   required init(presenter: Presenter) {
     self.presenter = presenter
     super.init(nibName: nil, bundle: nil)
+    
+    self.masterController = Scene.master.createViewController(parentController: self)
+    self.detailController = Scene.detail.createViewController(parentController: self)
+    self.loginController = Scene.login.createViewController(parentController: self)
+    
     self.presenter.viewController = self
+    self.isNavigationBarHidden = true
   }
     
   // MARK: - UIViewController
@@ -36,5 +53,11 @@ class MainViewController: UINavigationController, ViewController {
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
-
+  
+  /// Called when the controller's view is loaded into memory
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    self.pushViewController(self.masterController, animated: false)
+  }
+  
 }

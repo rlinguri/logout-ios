@@ -36,5 +36,11 @@ class LoginViewController: UIViewController, ViewController {
   required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented since we have no nib files")
   }
-
+  
+  /// Called when the controller's view is loaded into memory
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    self.view.backgroundColor = UIColor.systemGray
+  }
 }

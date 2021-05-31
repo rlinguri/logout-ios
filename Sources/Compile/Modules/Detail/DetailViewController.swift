@@ -37,4 +37,19 @@ class DetailViewController: UIViewController, ViewController {
     fatalError("init(coder:) has not been implemented")
   }
   
+  /// Called when the controller's view is loaded into memory
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    self.view.backgroundColor = UIColor.systemGray
+  }
+  
+  /// Called when the view is about to be added to a view hierarchy
+  ///
+  /// - Parameter animated: whether or not the transition will be animated
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    self.view.backgroundColor = UIColor.systemGray.withAlphaComponent(1.0)
+  }
+  
 }
