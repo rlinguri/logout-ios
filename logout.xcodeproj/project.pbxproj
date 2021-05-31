@@ -17,6 +17,22 @@
 		B26833A72663FF77000BBDD8 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A22663FF77000BBDD8 /* Interactor.swift */; };
 		B26833A82663FF77000BBDD8 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A32663FF77000BBDD8 /* Presenter.swift */; };
 		B26833A92663FF77000BBDD8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A42663FF77000BBDD8 /* Router.swift */; };
+		B26833B8266401D2000BBDD8 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833B7266401D2000BBDD8 /* LoginRouter.swift */; };
+		B26833BA266402A8000BBDD8 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833B9266402A8000BBDD8 /* LoginInteractor.swift */; };
+		B26833BC266402F0000BBDD8 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833BB266402F0000BBDD8 /* LoginPresenter.swift */; };
+		B26833BE2664032E000BBDD8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833BD2664032E000BBDD8 /* LoginViewController.swift */; };
+		B26833C32664041F000BBDD8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833BF2664041F000BBDD8 /* MasterViewController.swift */; };
+		B26833C42664041F000BBDD8 /* MasterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833C02664041F000BBDD8 /* MasterInteractor.swift */; };
+		B26833C52664041F000BBDD8 /* MasterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833C12664041F000BBDD8 /* MasterRouter.swift */; };
+		B26833C62664041F000BBDD8 /* MasterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833C22664041F000BBDD8 /* MasterPresenter.swift */; };
+		B26833CB2664042F000BBDD8 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833C72664042F000BBDD8 /* DetailRouter.swift */; };
+		B26833CC2664042F000BBDD8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833C82664042F000BBDD8 /* DetailViewController.swift */; };
+		B26833CD2664042F000BBDD8 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833C92664042F000BBDD8 /* DetailInteractor.swift */; };
+		B26833CE2664042F000BBDD8 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833CA2664042F000BBDD8 /* DetailPresenter.swift */; };
+		B26833D5266413BA000BBDD8 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833D4266413BA000BBDD8 /* MainRouter.swift */; };
+		B26833D72664140A000BBDD8 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833D62664140A000BBDD8 /* MainInteractor.swift */; };
+		B26833D92664144C000BBDD8 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833D82664144C000BBDD8 /* MainPresenter.swift */; };
+		B26833DB26641485000BBDD8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833DA26641485000BBDD8 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +49,22 @@
 		B26833A22663FF77000BBDD8 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		B26833A32663FF77000BBDD8 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		B26833A42663FF77000BBDD8 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B26833B7266401D2000BBDD8 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		B26833B9266402A8000BBDD8 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		B26833BB266402F0000BBDD8 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		B26833BD2664032E000BBDD8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B26833BF2664041F000BBDD8 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B26833C02664041F000BBDD8 /* MasterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterInteractor.swift; sourceTree = "<group>"; };
+		B26833C12664041F000BBDD8 /* MasterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterRouter.swift; sourceTree = "<group>"; };
+		B26833C22664041F000BBDD8 /* MasterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterPresenter.swift; sourceTree = "<group>"; };
+		B26833C72664042F000BBDD8 /* DetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		B26833C82664042F000BBDD8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B26833C92664042F000BBDD8 /* DetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		B26833CA2664042F000BBDD8 /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		B26833D4266413BA000BBDD8 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		B26833D62664140A000BBDD8 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		B26833D82664144C000BBDD8 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		B26833DA26641485000BBDD8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,8 +182,56 @@
 		B26833B3266401A8000BBDD8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B26833D3266413AE000BBDD8 /* Main */,
+				B26833B4266401AD000BBDD8 /* Login */,
+				B26833B5266401B4000BBDD8 /* Master */,
+				B26833B6266401B9000BBDD8 /* Detail */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		B26833B4266401AD000BBDD8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B26833B7266401D2000BBDD8 /* LoginRouter.swift */,
+				B26833B9266402A8000BBDD8 /* LoginInteractor.swift */,
+				B26833BB266402F0000BBDD8 /* LoginPresenter.swift */,
+				B26833BD2664032E000BBDD8 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B26833B5266401B4000BBDD8 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				B26833C02664041F000BBDD8 /* MasterInteractor.swift */,
+				B26833C22664041F000BBDD8 /* MasterPresenter.swift */,
+				B26833C12664041F000BBDD8 /* MasterRouter.swift */,
+				B26833BF2664041F000BBDD8 /* MasterViewController.swift */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		B26833B6266401B9000BBDD8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B26833C92664042F000BBDD8 /* DetailInteractor.swift */,
+				B26833CA2664042F000BBDD8 /* DetailPresenter.swift */,
+				B26833C72664042F000BBDD8 /* DetailRouter.swift */,
+				B26833C82664042F000BBDD8 /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		B26833D3266413AE000BBDD8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26833D4266413BA000BBDD8 /* MainRouter.swift */,
+				B26833D62664140A000BBDD8 /* MainInteractor.swift */,
+				B26833D82664144C000BBDD8 /* MainPresenter.swift */,
+				B26833DA26641485000BBDD8 /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,12 +305,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26833BE2664032E000BBDD8 /* LoginViewController.swift in Sources */,
 				B26833A52663FF77000BBDD8 /* ViewController.swift in Sources */,
+				B26833CB2664042F000BBDD8 /* DetailRouter.swift in Sources */,
 				B21BC80F2663FE8100566156 /* AppDelegate.swift in Sources */,
+				B26833C32664041F000BBDD8 /* MasterViewController.swift in Sources */,
+				B26833CC2664042F000BBDD8 /* DetailViewController.swift in Sources */,
+				B26833D72664140A000BBDD8 /* MainInteractor.swift in Sources */,
+				B26833C62664041F000BBDD8 /* MasterPresenter.swift in Sources */,
 				B26833A72663FF77000BBDD8 /* Interactor.swift in Sources */,
 				B26833A62663FF77000BBDD8 /* Entity.swift in Sources */,
+				B26833C42664041F000BBDD8 /* MasterInteractor.swift in Sources */,
 				B26833A92663FF77000BBDD8 /* Router.swift in Sources */,
+				B26833BC266402F0000BBDD8 /* LoginPresenter.swift in Sources */,
+				B26833CE2664042F000BBDD8 /* DetailPresenter.swift in Sources */,
+				B26833D5266413BA000BBDD8 /* MainRouter.swift in Sources */,
+				B26833D92664144C000BBDD8 /* MainPresenter.swift in Sources */,
+				B26833BA266402A8000BBDD8 /* LoginInteractor.swift in Sources */,
+				B26833B8266401D2000BBDD8 /* LoginRouter.swift in Sources */,
+				B26833CD2664042F000BBDD8 /* DetailInteractor.swift in Sources */,
+				B26833DB26641485000BBDD8 /* MainViewController.swift in Sources */,
 				B26833A82663FF77000BBDD8 /* Presenter.swift in Sources */,
+				B26833C52664041F000BBDD8 /* MasterRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
