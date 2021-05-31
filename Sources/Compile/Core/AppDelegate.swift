@@ -37,6 +37,13 @@ extension AppDelegate: UIApplicationDelegate {
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
+    
+    let window = UIWindow(frame: UIScreen.main.bounds)
+    let controller: MainViewController = Scene.main.createViewController(parentController: nil)
+    window.rootViewController = controller
+    window.makeKeyAndVisible()
+    self.window = window
+    
     return true
   }
   

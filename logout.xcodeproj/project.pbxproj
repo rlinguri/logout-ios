@@ -17,6 +17,10 @@
 		B26833A72663FF77000BBDD8 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A22663FF77000BBDD8 /* Interactor.swift */; };
 		B26833A82663FF77000BBDD8 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A32663FF77000BBDD8 /* Presenter.swift */; };
 		B26833A92663FF77000BBDD8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A42663FF77000BBDD8 /* Router.swift */; };
+		B26833AC2664000D000BBDD8 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833AB2664000D000BBDD8 /* State.swift */; };
+		B26833AE26640015000BBDD8 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833AD26640015000BBDD8 /* Scene.swift */; };
+		B26833B026640028000BBDD8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833AF26640028000BBDD8 /* Event.swift */; };
+		B26833B2266400CB000BBDD8 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833B1266400CB000BBDD8 /* App.swift */; };
 		B26833B8266401D2000BBDD8 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833B7266401D2000BBDD8 /* LoginRouter.swift */; };
 		B26833BA266402A8000BBDD8 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833B9266402A8000BBDD8 /* LoginInteractor.swift */; };
 		B26833BC266402F0000BBDD8 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833BB266402F0000BBDD8 /* LoginPresenter.swift */; };
@@ -29,6 +33,7 @@
 		B26833CC2664042F000BBDD8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833C82664042F000BBDD8 /* DetailViewController.swift */; };
 		B26833CD2664042F000BBDD8 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833C92664042F000BBDD8 /* DetailInteractor.swift */; };
 		B26833CE2664042F000BBDD8 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833CA2664042F000BBDD8 /* DetailPresenter.swift */; };
+		B26833D026640986000BBDD8 /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833CF26640986000BBDD8 /* ViewFactory.swift */; };
 		B26833D5266413BA000BBDD8 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833D4266413BA000BBDD8 /* MainRouter.swift */; };
 		B26833D72664140A000BBDD8 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833D62664140A000BBDD8 /* MainInteractor.swift */; };
 		B26833D92664144C000BBDD8 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833D82664144C000BBDD8 /* MainPresenter.swift */; };
@@ -49,6 +54,10 @@
 		B26833A22663FF77000BBDD8 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		B26833A32663FF77000BBDD8 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		B26833A42663FF77000BBDD8 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B26833AB2664000D000BBDD8 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		B26833AD26640015000BBDD8 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		B26833AF26640028000BBDD8 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		B26833B1266400CB000BBDD8 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		B26833B7266401D2000BBDD8 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		B26833B9266402A8000BBDD8 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		B26833BB266402F0000BBDD8 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
@@ -61,6 +70,7 @@
 		B26833C82664042F000BBDD8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B26833C92664042F000BBDD8 /* DetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
 		B26833CA2664042F000BBDD8 /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		B26833CF26640986000BBDD8 /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
 		B26833D4266413BA000BBDD8 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		B26833D62664140A000BBDD8 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 		B26833D82664144C000BBDD8 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
@@ -153,8 +163,10 @@
 			isa = PBXGroup;
 			children = (
 				B21BC80E2663FE8100566156 /* AppDelegate.swift */,
+				B26833CF26640986000BBDD8 /* ViewFactory.swift */,
 				B21BC80D2663FE8000566156 /* logout-Bridging-Header.h */,
 				B268339F2663FF77000BBDD8 /* VIPER */,
+				B26833AA2663FFFD000BBDD8 /* Entity */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -177,6 +189,17 @@
 				B26833A42663FF77000BBDD8 /* Router.swift */,
 			);
 			path = VIPER;
+			sourceTree = "<group>";
+		};
+		B26833AA2663FFFD000BBDD8 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B26833B1266400CB000BBDD8 /* App.swift */,
+				B26833AB2664000D000BBDD8 /* State.swift */,
+				B26833AD26640015000BBDD8 /* Scene.swift */,
+				B26833AF26640028000BBDD8 /* Event.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		B26833B3266401A8000BBDD8 /* Modules */ = {
@@ -307,8 +330,10 @@
 			files = (
 				B26833BE2664032E000BBDD8 /* LoginViewController.swift in Sources */,
 				B26833A52663FF77000BBDD8 /* ViewController.swift in Sources */,
+				B26833B026640028000BBDD8 /* Event.swift in Sources */,
 				B26833CB2664042F000BBDD8 /* DetailRouter.swift in Sources */,
 				B21BC80F2663FE8100566156 /* AppDelegate.swift in Sources */,
+				B26833B2266400CB000BBDD8 /* App.swift in Sources */,
 				B26833C32664041F000BBDD8 /* MasterViewController.swift in Sources */,
 				B26833CC2664042F000BBDD8 /* DetailViewController.swift in Sources */,
 				B26833D72664140A000BBDD8 /* MainInteractor.swift in Sources */,
@@ -316,13 +341,16 @@
 				B26833A72663FF77000BBDD8 /* Interactor.swift in Sources */,
 				B26833A62663FF77000BBDD8 /* Entity.swift in Sources */,
 				B26833C42664041F000BBDD8 /* MasterInteractor.swift in Sources */,
+				B26833AE26640015000BBDD8 /* Scene.swift in Sources */,
 				B26833A92663FF77000BBDD8 /* Router.swift in Sources */,
+				B26833D026640986000BBDD8 /* ViewFactory.swift in Sources */,
 				B26833BC266402F0000BBDD8 /* LoginPresenter.swift in Sources */,
 				B26833CE2664042F000BBDD8 /* DetailPresenter.swift in Sources */,
 				B26833D5266413BA000BBDD8 /* MainRouter.swift in Sources */,
 				B26833D92664144C000BBDD8 /* MainPresenter.swift in Sources */,
 				B26833BA266402A8000BBDD8 /* LoginInteractor.swift in Sources */,
 				B26833B8266401D2000BBDD8 /* LoginRouter.swift in Sources */,
+				B26833AC2664000D000BBDD8 /* State.swift in Sources */,
 				B26833CD2664042F000BBDD8 /* DetailInteractor.swift in Sources */,
 				B26833DB26641485000BBDD8 /* MainViewController.swift in Sources */,
 				B26833A82663FF77000BBDD8 /* Presenter.swift in Sources */,
