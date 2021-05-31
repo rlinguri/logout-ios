@@ -12,6 +12,11 @@
 		B255750B2663FED700C2D15B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B255750A2663FED700C2D15B /* Colors.xcassets */; };
 		B255750D2663FEF900C2D15B /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B255750C2663FEF900C2D15B /* Icons.xcassets */; };
 		B25575102663FF1100C2D15B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B255750F2663FF1100C2D15B /* UIKit.framework */; };
+		B26833A52663FF77000BBDD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A02663FF77000BBDD8 /* ViewController.swift */; };
+		B26833A62663FF77000BBDD8 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A12663FF77000BBDD8 /* Entity.swift */; };
+		B26833A72663FF77000BBDD8 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A22663FF77000BBDD8 /* Interactor.swift */; };
+		B26833A82663FF77000BBDD8 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A32663FF77000BBDD8 /* Presenter.swift */; };
+		B26833A92663FF77000BBDD8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26833A42663FF77000BBDD8 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		B255750A2663FED700C2D15B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B255750C2663FEF900C2D15B /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		B255750F2663FF1100C2D15B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B26833A02663FF77000BBDD8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B26833A12663FF77000BBDD8 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		B26833A22663FF77000BBDD8 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		B26833A32663FF77000BBDD8 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		B26833A42663FF77000BBDD8 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,7 @@
 			children = (
 				B21BC80E2663FE8100566156 /* AppDelegate.swift */,
 				B21BC80D2663FE8000566156 /* logout-Bridging-Header.h */,
+				B268339F2663FF77000BBDD8 /* VIPER */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -122,6 +133,18 @@
 				B255750F2663FF1100C2D15B /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B268339F2663FF77000BBDD8 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				B26833A02663FF77000BBDD8 /* ViewController.swift */,
+				B26833A22663FF77000BBDD8 /* Interactor.swift */,
+				B26833A32663FF77000BBDD8 /* Presenter.swift */,
+				B26833A12663FF77000BBDD8 /* Entity.swift */,
+				B26833A42663FF77000BBDD8 /* Router.swift */,
+			);
+			path = VIPER;
 			sourceTree = "<group>";
 		};
 		B26833B3266401A8000BBDD8 /* Modules */ = {
@@ -202,7 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26833A52663FF77000BBDD8 /* ViewController.swift in Sources */,
 				B21BC80F2663FE8100566156 /* AppDelegate.swift in Sources */,
+				B26833A72663FF77000BBDD8 /* Interactor.swift in Sources */,
+				B26833A62663FF77000BBDD8 /* Entity.swift in Sources */,
+				B26833A92663FF77000BBDD8 /* Router.swift in Sources */,
+				B26833A82663FF77000BBDD8 /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
