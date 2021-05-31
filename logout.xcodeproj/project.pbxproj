@@ -101,6 +101,7 @@
 		B21BC80B2663FE6F00566156 /* Compile */ = {
 			isa = PBXGroup;
 			children = (
+				B26833B3266401A8000BBDD8 /* Modules */,
 				B21BC80C2663FE7400566156 /* Core */,
 			);
 			path = Compile;
@@ -121,6 +122,13 @@
 				B255750F2663FF1100C2D15B /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B26833B3266401A8000BBDD8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,7 +338,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linguri.logout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Compile/Core/logout-Bridging-Header.h";
@@ -353,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linguri.logout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Compile/Core/logout-Bridging-Header.h";
