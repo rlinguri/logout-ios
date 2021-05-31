@@ -69,7 +69,7 @@ class DetailViewController: UIViewController, ViewController {
       for: .touchUpInside
     )
     
-    self.logoutButton.setTitle("Log Out", for: .normal)
+    self.logoutButton.setTitle("Logout", for: .normal)
     
     self.view.addSubview(self.logoutButton)
     
