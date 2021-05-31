@@ -136,6 +136,16 @@ class DetailViewController: UIViewController, ViewController {
     self.presenter.viewController = self
   }
   
+  /// Receive notification from presenter when data is updated (could be on background)
+  ///
+  /// - Parameter entity: The App entity
+  func notify(entity: Entity) {
+    OperationQueue.main.addOperation {
+      self.logoutButton.backgroundColor = UIColor.systemBlue.withAlphaComponent(1.0)
+      self.backButton.backgroundColor = UIColor.systemBlue.withAlphaComponent(1.0)
+    }
+  }
+  
   // MARK: - UIViewController
   
   /// Required initializer (not implemented) for loading from a nib

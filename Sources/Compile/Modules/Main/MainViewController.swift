@@ -90,6 +90,14 @@ class MainViewController: UINavigationController, ViewController {
         }
       }
     }
+    
+    DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+      if let routers = self.childRouters {
+        for router in routers {
+          router.notify(entity: entity)
+        }
+      }
+    }
   }
   
   // MARK: - UIViewController
