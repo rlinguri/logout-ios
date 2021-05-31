@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B21BC80A2663FE4900566156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21BC8092663FE4900566156 /* LaunchScreen.storyboard */; };
 		B21BC80F2663FE8100566156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21BC80E2663FE8100566156 /* AppDelegate.swift */; };
+		B22F0FC226651C2E00CAB415 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F0FC126651C2E00CAB415 /* BackButton.swift */; };
 		B255750B2663FED700C2D15B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B255750A2663FED700C2D15B /* Colors.xcassets */; };
 		B255750D2663FEF900C2D15B /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B255750C2663FEF900C2D15B /* Icons.xcassets */; };
 		B25575102663FF1100C2D15B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B255750F2663FF1100C2D15B /* UIKit.framework */; };
@@ -46,6 +47,7 @@
 		B21BC8092663FE4900566156 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B21BC80D2663FE8000566156 /* logout-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "logout-Bridging-Header.h"; sourceTree = "<group>"; };
 		B21BC80E2663FE8100566156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B22F0FC126651C2E00CAB415 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		B255750A2663FED700C2D15B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B255750C2663FEF900C2D15B /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		B255750F2663FF1100C2D15B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -163,12 +165,21 @@
 			isa = PBXGroup;
 			children = (
 				B21BC80E2663FE8100566156 /* AppDelegate.swift */,
-				B26833CF26640986000BBDD8 /* ViewFactory.swift */,
 				B21BC80D2663FE8000566156 /* logout-Bridging-Header.h */,
 				B268339F2663FF77000BBDD8 /* VIPER */,
 				B26833AA2663FFFD000BBDD8 /* Entity */,
+				B22F0FC326651C5200CAB415 /* UI */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		B22F0FC326651C5200CAB415 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B26833CF26640986000BBDD8 /* ViewFactory.swift */,
+				B22F0FC126651C2E00CAB415 /* BackButton.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		B255750E2663FF1100C2D15B /* Frameworks */ = {
@@ -340,6 +351,7 @@
 				B26833C62664041F000BBDD8 /* MasterPresenter.swift in Sources */,
 				B26833A72663FF77000BBDD8 /* Interactor.swift in Sources */,
 				B26833A62663FF77000BBDD8 /* Entity.swift in Sources */,
+				B22F0FC226651C2E00CAB415 /* BackButton.swift in Sources */,
 				B26833C42664041F000BBDD8 /* MasterInteractor.swift in Sources */,
 				B26833AE26640015000BBDD8 /* Scene.swift in Sources */,
 				B26833A92663FF77000BBDD8 /* Router.swift in Sources */,

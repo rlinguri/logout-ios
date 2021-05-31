@@ -26,7 +26,11 @@ class DetailViewController: UIViewController, ViewController {
   let logoutButton: UIButton = ViewFactory.createButton()
   
   /// The bright, shiny candy-like button for unwinding to master
-  let backButton: UIButton = ViewFactory.createButton()
+  let backButton: BackButton = {
+    let view = BackButton()
+    view.translatesAutoresizingMaskIntoConstraints = false
+    return view
+  }()
   
   // MARK: - Actions / Selectors
   
@@ -73,9 +77,7 @@ class DetailViewController: UIViewController, ViewController {
       action: #selector(DetailViewController.didTapBack(_:)),
       for: .touchUpInside
     )
-    
-    self.backButton.setTitle("Back", for: .normal)
-    
+        
     self.view.addSubview(self.backButton)
   }
   
