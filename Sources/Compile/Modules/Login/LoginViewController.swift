@@ -32,6 +32,8 @@ class LoginViewController: UIViewController, ViewController {
   /// - Parameter sender: the button
   @objc func didTapLogin(_ sender: UIButton) {
     sender.backgroundColor = UIColor.systemBlue.withAlphaComponent(0.5)
+    let entity = App(state: .authenticated, scene: .login, event: .didTapLogin)
+    self.presenter.post(entity: entity)
   }
   
   // MARK: - LoginViewController

@@ -37,6 +37,8 @@ class MasterViewController: UIViewController, ViewController {
     sender.backgroundColor = UIColor.systemBlue.withAlphaComponent(0.5)
     // If modalPresentationStyle == .fullScreen, this will dim the screen for the modal
     // self.view.backgroundColor = UIColor.systemGray.withAlphaComponent(0.9)
+    let entity = App(state: .unauthenticated, scene: .master, event: .didTapLogout)
+    self.presenter.post(entity: entity)
   }
   
   /// Detail button action
@@ -44,6 +46,8 @@ class MasterViewController: UIViewController, ViewController {
   /// - Parameter sender: the button
   @objc func didTapDetail(_ sender: UIButton) {
     sender.backgroundColor = UIColor.systemBlue.withAlphaComponent(0.5)
+    let entity = App(state: .authenticated, scene: .master, event: .didTapDetail)
+    self.presenter.post(entity: entity)
   }
   
   // MARK: - MasterViewController
