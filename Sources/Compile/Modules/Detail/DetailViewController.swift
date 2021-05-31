@@ -90,7 +90,7 @@ class DetailViewController: UIViewController, ViewController {
     ).isActive = true
     
     self.logoutButton.trailingAnchor.constraint(
-      equalTo: self.view.trailingAnchor,
+      equalTo: self.view.safeAreaLayoutGuide.trailingAnchor,
       constant: -17.0
     ).isActive = true
     
@@ -103,7 +103,7 @@ class DetailViewController: UIViewController, ViewController {
     ).isActive = true
     
     self.backButton.leadingAnchor.constraint(
-      equalTo: self.view.leadingAnchor,
+      equalTo: self.view.safeAreaLayoutGuide.leadingAnchor,
       constant: 17.0
     ).isActive = true
     
@@ -111,12 +111,12 @@ class DetailViewController: UIViewController, ViewController {
     self.backButton.heightAnchor.constraint(equalToConstant: 36).isActive = true
     
     self.titleLabel.leadingAnchor.constraint(
-      equalTo: self.view.leadingAnchor,
+      equalTo: self.view.safeAreaLayoutGuide.leadingAnchor,
       constant: 17.0
     ).isActive = true
     
     self.titleLabel.trailingAnchor.constraint(
-      equalTo: self.view.trailingAnchor,
+      equalTo: self.view.safeAreaLayoutGuide.trailingAnchor,
       constant: -17.0
     ).isActive = true
     
